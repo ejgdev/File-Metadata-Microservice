@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+  <body>
+        <div class="container">
+            <h1 class="header">
+                API Basejump: <br>
+                File Metadata Microservice
+            </h1>
+            <blockquote class="blockquote">
+              <h4>User stories:</h4>
+                <ul>1) I can submit a FormData object that includes a file upload.</ul>
+                <ul>2) When I submit something, I will receive the file size in bytes within the JSON response.</ul>
+            </blockquote>
+            <h3>Example usage:</h3>
+            <form method="post" action="/upload" enctype="multipart/form-data">
+               <div> 
+                 <label for="file" class="inputfile">Submit a file to view its filesize:</label>
+                 <br>
+                 <input type="file" id="file" name="myFile" multiple>
+                 <button class="btn-file-input">Upload File</button>
+               </div>
+            </form>
+            <h3>Example output:</h3>
+            <code>
+                {"size":(The size of the file uploaded in bytes)}
+            </code>
+            <code>
+                Example: {"Size":987123654}
+            </code>
+        </div>
+     </body>
+  
+    <footer class="footer">
+    <p>Create by: Edward Jimenez  |  Github information: <a href="https://github.com/edlobox/Image-Search-Abstraction--Layer" target="_blank">Github Repository</a></p>
+    </footer>
+
+</html>
