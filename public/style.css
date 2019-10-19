@@ -88,3 +88,21 @@ img {
 	margin: 20px auto 0 auto;
 	display: block;
 }
+
+ .btn-file-input {
+   border: none;
+   box-shadow: 1px 1px #888888;
+   display: inline-block;
+   width: 200px;
+   height: 40px;
+   background-color: #455869;
+   color: #F8BC86;
+  }
+
+input[type='file']{
+  font-size:20px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+}
