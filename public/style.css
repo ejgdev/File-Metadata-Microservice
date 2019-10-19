@@ -1,13 +1,13 @@
 /****** Main Styling ******/
 
 body {
-  background: #D1AA7F;
+  background: #F2F2F2;
 	margin: 0;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight: 300;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #3B7E87;
+  color: #595959;
 	text-align: left;
 }
 
@@ -20,16 +20,15 @@ body {
   margin-left: auto;
 	margin-top: 40px;
  	font-size: 20px;
-	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 	box-sizing: border-box;
 }
 
 .blockquote{
   font-weight: 300;
   line-height: 1.42em;
-  color:#D1AA7F;
-  background-color:#3B7E87;
-  margin: 10px; 
+  color:#595959;
+  background-color:#CCCCCC;
+  margin: 10px;
   padding:10px;
 }
 
@@ -38,24 +37,23 @@ body {
 }
 
 .footer {
-  position:fixed;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  color:#D1AA7F;
-  background-color: #3B7E87;
+  color:#F2F2F2;
+  background-color: #7F7F7F;
   text-align: center;
 }
 
 code{
   display: block;
-  background-color: #455869;
-  color: #F8BC86;
+  background-color: #595959;
+  color: #F2F2F2;
   font-family: Courier, 'New Courier', monospace;
   font-size: 14px;
   word-wrap: break-word;
-  margin: 10px; 
+  margin: 10px;
   padding:10px;
 }
 
@@ -83,27 +81,10 @@ a:active {
     color: CornflowerBlue;
 }
 
+
 /****** Logo Div Styling ******/
 
 img {
 	margin: 20px auto 0 auto;
 	display: block;
-}
-
- .btn-file-input {
-   border: none;
-   box-shadow: 1px 1px #888888;
-   display: inline-block;
-   width: 200px;
-   height: 40px;
-   background-color: #455869;
-   color: #F8BC86;
-  }
-
-input[type='file']{
-  font-size:20px;
-  cursor: pointer;
-  border: 1px solid #ccc;
-  display: inline-block;
-  padding: 6px 12px;
 }

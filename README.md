@@ -1,6 +1,7 @@
 # File Metadata Microservice
+This is a challenge from https://freecodecamp.org
 
-## Objective: 
+## Objective:
 Build a full stack JavaScript app that is functionally similar to **[this page](https://aryanj-file-size.herokuapp.com/)** and deploy it to Glitch.
 
 
@@ -8,16 +9,16 @@ Note that for each project, you should create a new GitHub repository and a new 
 
 Here are the specific user stories you should implement for this project:
 
-## User Story: 
+## User Story:
 >1. I can submit a FormData object that includes a file upload.
 
 >2. When I submit something, I will receive the file size in bytes within the JSON response.
 
 
 ### Links
-[https://island-bottle.glitch.me/](https://island-bottle.glitch.me/)
+[App Demo Home page](https://island-bottle.glitch.me/)
 
-[https://github.com/edlobox/File-Metadata-Microservice](https://github.com/edlobox/File-Metadata-Microservice)
+[GitHub](https://github.com/ejgdev/File-Metadata-Microservice)
 
 
 ### Note
