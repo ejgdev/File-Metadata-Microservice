@@ -1,6 +1,8 @@
 /****** Main Styling ******/
 
 body {
+  display: flex;
+  flex-direction: column;
   background: #F2F2F2;
 	margin: 0;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -9,6 +11,7 @@ body {
   line-height: 1.42857143;
   color: #595959;
 	text-align: left;
+  height: 100%;
 }
 
 .container {
@@ -37,6 +40,7 @@ body {
 }
 
 .footer {
+  flex-shrink: 0;
   right: 0;
   bottom: 0;
   left: 0;
@@ -104,5 +108,5 @@ input[type='file']{
   cursor: pointer;
   border: 1px solid #ccc;
   display: inline-block;
-  padding: 6px 12px;
+  padding: 8px 12px;
 }
